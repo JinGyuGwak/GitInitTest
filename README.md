@@ -2,27 +2,40 @@
 # Git 메모
 
 Git 메모
+
 (repoisitory 삭제하면 잔디 사라짐)
+
 git bash 로 버전관리 할 폴더에서
+
 git init 명령어 실행 -> 이 폴더는 이제 깃으로 관리한다 (버전관리한다)
 
 gitignore : 사용자가 git에 등록되지 않길 우너하는 파일 또는 폴더들의 목록을 저장
+
 ->gitignore에 등록된 파일들은 커밋 시 자동으로 제외됨
+
 
 깃(git)은 4가지 공간을 가지고 있음
 
+
 Working directory : 작업하는 파일이 있는 디렉토리
+
 Staging Area : git에 등록할 (커밋) 파일들이 올라가는 영역
+
 Local Repository : 로컬 git 프로젝트의 메타데이터와 데이터 정보가 저장되는 영역
+
 -------------------------------------------------------여기까지 로컬(내 컴퓨터)에 저장됨
+
 Remote Repository : Github등의 서비스를 통한 온라인 상의 저장소
 
 
 Repository : 저장소
+
 git 저장소는 파일 변경 이력 별로 구분되어 저장
 
 Local Repository : 내 pc에 저장되는 개인 공간
+
 생성과정
+
 1. 원하는 폴더 생성
 2. 해당 폴더에서 git init 명령어 입력
 3. .git 폴더 생성 확인
@@ -33,9 +46,13 @@ Remote Repository : 파일이 전용 서버(GitHub)에서 관리되며 여러 �
 clone : Remote Repository를 복제해 내 pc에 local Repository로 저장하는 것
 
 head : 작업 중인 위치(branch)를 가리키는 가상의 커서를 의미
+
 add : 변경된 파일 중 repository에 올릴 파일들을 등록한다. (working dir -> Staging Area)
+
 commit : add로 등록된 파일(stagin area 의 데이터)을 한 덩어리로 만들고 메시지를 추가해 로컬저장소에 올림
+
 push : commit되어 로컬 저장소에서 변경이 된 파일들을 원격 저장소(Remote Repository)로 전달
+
 pull : 원격저장소의 변경사항을 로컬저장소로 가져옴(fetch)과 동시에 내 작업 소스에 합친다(merge).
 (pull=fetch+merge)
 
