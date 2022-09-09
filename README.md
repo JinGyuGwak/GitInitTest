@@ -67,5 +67,16 @@ Pull Request
 
 ISSUES : 프로젝트의 작업, 개선사항, 버그를 추적하고 커뮤니케이션 할 수 있는 github에서 	  제공하는 기능
 
+
 README : 
 ![20220909_162122](https://user-images.githubusercontent.com/104514223/189294575-74c64a3a-fc65-4762-928a-c35495c91f03.png)
+
+<code>
+	int i=1;
+	
+	printf("hello");
+</code>
+
+- 1번 이슈
+- 2번 이슈
+- 3번 이슈
