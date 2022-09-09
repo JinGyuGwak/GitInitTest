@@ -89,9 +89,20 @@ README :
 ![20220909_162122](https://user-images.githubusercontent.com/104514223/189294575-74c64a3a-fc65-4762-928a-c35495c91f03.png)
 
 <code>
-	int i=1;
-	
-	printf("hello");
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>메인은 계속적으로 새 브랜치 영향 없이 진행</title>
+</head>
+<body>
+    테스트
+    <p>충돌이 날꺼야...!!</p>
+</body>
+</html>
 </code>
 
 - 1번 이슈
